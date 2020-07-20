@@ -2,9 +2,12 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Барбешоп Бородинский</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,cyrillic" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/index.style.css" rel="stylesheet">
   </head>
-  <body>
+  <body class="inner-page">
   	<header class="main-header">
   		<nav class="main-navigation">
   			<a class="main-header-logo" href="index.html">
@@ -37,7 +40,11 @@
         <legend>Производители:</legend>
         <ul>
           <li class="filter-option">
-           <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="baxter-of-california" id="filter-baxter-of-california" checked="">
+           <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="baxter-of-california" id="filter-baxter-of-california" checked>
+           <label for="filter-baxter-of-california">Baxter of California</label>
+         </li>
+         <li class="filter-option">
+          <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="mr-natty" id="filter-mr-natty">
            <label for="filter-mr-natty">Mr Natty</label>
           </li>
           <li class="filter-option">
@@ -49,7 +56,7 @@
           <label for="filter-malin-goetz">Malin+Goetz</label>  
           </li>
           <li class="filter-option">
-          <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="murrays" id="filter-murrays">
+          <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="murrays" id="filter-murrays" disabled>
           <label for="filter-murrays">Murrays</label>  
           </li>
           <li class="filter-option">
