@@ -5,14 +5,19 @@
   <title>Барбешоп Бординский</title>
    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,cyrillic" rel="stylesheet">
 <link href="css/normalize.css" rel="stylesheet">
+<link href="css/outline.css" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="css/index.style.css"> 
 </head>
-<body class="inner-page">
+
+<body>
+
   <header class="main-header">
    <nav class="main-navigation">
     <a class="main-header-logo">
     <img src="img/index-logo.svg" width="368" height="153" alt="Логотип барбешопа Бородинский">
   </a>
+  <div class="main-navigation-wrapper">
+    <div class="container">
     <ul class="site-navigation">
       <li><a href="info.html">Информация</a></li>
       <li><a href="news.html">Новости</a></li>
@@ -24,11 +29,16 @@
       <li class="login-link">
         <a class="login-link" href="login.html">Вход</a>
       </li>
-    </ul> 
+    </ul>
+    </div>
+    </div> 
    </nav> 
   </header>
+
   <main class="container">
+
     <h1 class="visually-hidden">Барбешоп Бородинский</h1>
+
     <section class="features">
      <h2 class="visually-hidden">Преимущества</h2>
      <ul class="features-list">
@@ -46,6 +56,7 @@
       </li>
     </ul> 
     </section>
+
     <div class="index-columns">
     <section class="news">
      <h2>Новости</h2>
@@ -61,6 +72,7 @@
     </ul>
     <a class="button" href="news.html">Все новости</a> 
     </section>
+
     <section class="gallery">
      <h2>Фотогалерея</h2>
      <figure class="gallery-content">
@@ -87,6 +99,7 @@
      <a class="button" href="map.html">Как проехать</a>
      <a class="button" href="contacts.html">Обратная связь</a> 
     </section>
+
     <section class="appointment">
      <h2>Записаться</h2>
      <p class="appointment-info">Укажите желаемую дату и время и мы свяжемся с вами для подтверждения брони</p>
@@ -110,8 +123,11 @@
      </form> 
     </section>
   </div>
+
   </main>
+
   <footer class="main-footer">
+    <div class="container">
     <p class="footer-contacts">Барбешоп Бородинский<br>
     Адрес: г. Санкт-петербург, Б. Конюшенная, д. 19/8<br>
     <a href="map.html">Как нас найти?</a><br>Телефон: +7 (812) 666-02-66
@@ -128,6 +144,7 @@
       <b>Разработано:</b>
       <a class="button" href="https://htmlacademy.ru">HTML Academy</a>
     </p>
+  </div>
   </footer>
   <section class="modal modal-login">
    <h2>Личный кабинет</h2>
