@@ -7,9 +7,11 @@
   <link href="css/normalize.css" rel="stylesheet">
   <link href="css/index.style.css" rel="stylesheet">
 </head>
+
 <body class="inner-page">
-  <header class="main-header">
-   <nav class="main-navigation">
+
+<header class="main-header">
+<nav class="main-navigation container">
    	 <a class="main-header-logo" href="index. html">
    	  <img src="img/logo.svg" width="111" height="24" alt="Логотип барбешопа Бородинский">
    	 </a>
@@ -21,29 +23,36 @@
    	  <li><a href="contacts.html">Контакты</a></li>	
    	 </ul>
    	 <ul class="user-navigation">
-   	  <li class="login-link">Вход</li>	
+   	<li><a class="login-link" href="login.html">Вход</a></li>	
    	 </ul>
    </nav>	
   </header>
+
   <main class="container">
+
   <h1 class="page-title">Набор для путишествий Baxter of California</h1>
+
   <ul class="breadcrumbs">
   	<li><a href="index.html">Главная</a></li>
   	<li><a href="#">Магазин</a></li>
   	<li><a href="#">Средства для ухода</a></li>
   	<li class="breadcrumbs-current">Набор для путишествий Baxter of California</li>
   </ul>
+
+  <div class="catalog-columns">
+
   <section class="product-photos">
   	<h2 class="visually-hidden">Изображения товара</h2>
-  	<span class="product-photos-ful">
+  	<p class="product-photos-ful">
   	<img src="img/product-big.jpg" width="460" height="498" alt="Фото всего набора">
-  </span>
+  </p>
   <ul class="product-photos-preview">
   	<li><img src="img/product-small-1.jpg" width="140" height="149" alt="Фото в анфас"></li>
   	<li><img src="img/product-small-2.jpg" width="140" height="149" alt="Фото в профиль"></li>
-  	<li><img src="img/product-small-3.jpg" alt="Фото отдельной части"></li>
+  	<li><img src="img/product-small-3.jpg" width="140" height="140" alt="Фото отдельной части"></li>
   </ul>
   </section>
+
   <section class="product-info">
   <h2 class="visually-hidden">Описание товара</h2>
   <span class="product-availability">Есть в наличии</span>
@@ -61,9 +70,13 @@
   	<li>Крем после бритья, шампунь (50 мл)</li>
   	<li>Удобная кожаная косметичка</li>
   </ul>	
-  </section>	
-  </main> 
+  </section>
+  </div>
+
+  </main>
+
   <footer class="main-footer">
+    <div class="container">
   	<p class="footer-contacts">
   	Барбешоп Бородинский<br>
   	Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
@@ -80,6 +93,7 @@
   	<p class="footer-copyright">
   	<b>Разработано:</b> <a class="button" href="https://htmlacademy.ru">HTML Academy</a>	
   	</p> 
+  </div>
   </footer>	
  
   <section class="modal modal-login">
